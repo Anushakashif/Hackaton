@@ -1,0 +1,79 @@
+body {
+    font-family:'Times New Roman';
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+.resume-container {
+    display: flex;
+    max-width:900px;
+    margin: 40px auto;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.profile-section {
+    background-color: #4D041B;
+    padding: 40px;
+    width: 35%;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.profile-picture img {
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid white;
+}
+.objective,
+.contact-info,
+.language {
+    text-align: left;
+    margin-top: 20px;
+}
+.profile-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.profile-section p {
+    line-height: 1;
+}
+.details-section {
+    padding: 40px;
+    width: 65%;
+}
+h1 {
+    font-size: 35px;
+    margin-bottom: 0%;
+}
+.role {
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 0.5px;
+}
+.details-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+.education,
+.technical-skills,
+.personal-skills,
+.projects {
+    margin-bottom: 30px;
+}
+li {
+    text-transform: capitalize;
+}
+button {
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    margin-top: 5px;
+}
+button:hover {
+    background-color: #4D041B;
+}
+
